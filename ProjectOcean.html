@@ -2,6 +2,10 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
@@ -227,7 +231,25 @@ $(document).ready(function(){
   </script>
   <br class="w3-hide-large">
   <input class="searchinput" placeholder="Search..." oninput="filterContent(this)">
-        input style="background: rgb(0, 0, 0); position:absolute; left:1400px; top:8px; width:10% " class="submit" title="Hledat" type="image" alt="Hledat" src="https://spng.pinpng.com/pngs/s/59-594906_white-magnifying-glass-clip-art-looking-glass-icon.png"/>
+        input style="background: rgb(0, 0, 0); position:absolute; left:1400px; top:8px; width:10% " class="submit" title="Hledat" type="image" alt="Hledat" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seekpng.com%2Fima%2Fu2t4o0o0a9q8w7w7%2F&psig=AOvVaw1eEG5O6CSA5UCchWX0dsxu&ust=1639832200896000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDRvpHx6vQCFQAAAAAdAAAAABAP"/>
+        
+        <div class="container-out">
+          <div class="container-in">
+          <div class="search-container">
+              <div class="search-engine">
+              <p class="search-title">Search Names</p>
+              <input
+                  type="input"
+                  id="search-input"
+                  autocomplete="off"
+                  placeholder="Hit Enter to Search"
+              />
+              </div>
+              <div id="search-results"></div>
+              <div id="search-data"></div>
+          </div>
+          </div>
+      </div>
   
 
 
